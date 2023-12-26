@@ -1,0 +1,78 @@
+body {
+  background-image: url(https://lh3.googleusercontent.com/pw/AIL4fc8YvICS8RgWgBjYpamSsWEItBdlFlK2O_SpW_2xzl0bVQS8eUqtFOdmgHrnRjbItcqTYb0Z9k09oyMYnyIg8-CqsAkLJ9C8U9KkrLJkf4ZS5moYQusnVElUFVNcnpNpSCX4Pf_JV09YeJQJ5z5OuQER4TPi0sB4TuIrQD2oqS7obFr_Fk3R6G2xqn8-FMHXs0D05fkoRdkYcmHtY9c51l1Jz-QHTdCwi5Ks-XBc3vWsLkHPuaElZNt1GvCiy_Dk-5uBEgDD411dLC7c-ZTlhkId0Bf53a6j9tdeD56Lexk9eGI0Wmp0yCbLZ7N-7gi3Fy7YQzsrLZ44_QnK6UsInpOTKdLgc2nIjcUEI_7vVifIYsiH1hib1Us24BuC7WlByAQbqWuSGPtlhZ74h11LAjZ1M5XukQd623kQZqqcZZqep4beysIN8edLxZzYjgybY-qjJHwhOg8shtFK4ViYpPj27smz0g9mjMnoEwPmcXvb0M-Uspr0ahabzPL6ETzAhlSVI1Bd-FC48JNXIk81xbfoYhPcgYJAVpOzwoe0ygBdJ3hNtq0BSpBsvc11BNlPdIokvtTFoHNB9YRnF1xKhZcKYjemczIJAdRSVhKWttw8Ui4HpyZXkQ0_vjla0pTvXSGofY1ijMS2ycIMTJ671TlclN1r7_3EPx_EUas8dPoQcFfILl8M8bPPxN07PqYKPA2zkiX0I8aJ5zf24EZa2QerWYPH33LXlJfk49pU2tD9Rzh4I7qgT6hGwpSYZP5ORbOTlAryw6AHC31Goa9Zptia48AtM2Jo8PAhNbFPjYbGTpABeFoj_eRWiHLpXNKOtnco_9bdqxvlFgw4ee-CDggUuyZO6J3jdMAYaS4aDaqJNvs5mqpQOkEznSYJatU2az8WYPI_Llacuvrmn6bOdg=w923-h619-s-no?authuser=0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* body::before {
+  content: "";
+  background-color: rgba(37, 17, 116, 0.7);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+} */
+main {
+    background-color: rgba(37, 17, 116, 0.7);
+    font-family: 'Corbel Light', sans-serif;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    /* bottom: 0; */
+}
+div {
+  margin: auto;
+  width: 60vw;
+  max-width: 500px;
+  min-width: 400px;
+}
+h1{
+  padding-top: 20px;
+  font-size: 30px;
+}
+p {
+  font-style: italic;
+  font-size: 20px;
+}
+h1, p {
+  text-align: center;
+}
+
+form {
+  background-color: rgba(0, 0, 50, 0.65);
+  width: 60vw;
+  max-width: 500px;
+  min-width: 400px;
+  margin: 30px auto;
+  padding: 10px;
+  border-radius: 3px;
+}
+fieldset {
+  border: none;
+  padding: 10px;
+}
+input {
+  display: block;
+  border-radius: 3px;
+}
+label {
+  font-weight: bold;
+  padding-top: 10px;
+}
+select {
+  border-radius: 3px;
+}
+input, textarea, select {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  padding: 5px;
+}
+.inline {
+  width: unset;
+  margin: 0 0 0 0.5px;
+  vertical-align: middle;
+}
